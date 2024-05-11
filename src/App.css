@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-be-vietnam: "Be Vietnam";
+  --heading-5-bold: Barlow;
+  --text-sizes-mobile-h9: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --heading-5-bold-size: 24px;
+  --text-sizes-mobile-h9-size: 12px;
+  --heading-4-bold-size: 32px;
+  --heading-5-20-size: 20px;
+  --heading-3-bold-size: 40px;
+
+  /* Colors */
+  --grey-ff: #fff;
+  --primary-60: #3535fd;
+  --primary-40: #0000cc;
+  --grey-90: #e0e4eb;
+  --grey-10: #1a1a1a;
+  --color-gray-100: #191919;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-23xl: 42px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}

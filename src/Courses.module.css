@@ -1,0 +1,223 @@
+.gridChild,
+.gridItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 40px;
+  height: 10687px;
+}
+.gridItem {
+  left: 333px;
+}
+.grid {
+  align-self: stretch;
+  height: 10687px;
+  position: relative;
+  display: none;
+}
+
+
+.image3Icon {
+  align-self: stretch;
+  width: 152px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 38px;
+}
+
+.headerActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.mobileHeader2variant2,
+.statusBarvariant2Parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.mobileHeader2variant2 {
+  background-color: var(--grey-ff);
+  border-bottom: 1px solid var(--primary-40);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 13px var(--padding-base) var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.statusBarvariant2Parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.unlockYourPotential,
+.welcomeToSarath {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+}
+.unlockYourPotential {
+  font-size: inherit;
+  font-weight: 700;
+}
+.welcomeToSarath {
+  font-size: var(--heading-5-20-size);
+  font-weight: 400;
+  white-space: pre-wrap;
+}
+
+
+.coursesInner,
+.unlockYourPotentialParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.unlockYourPotentialParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+.coursesInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-3-bold-size);
+  color: var(--grey-10);
+  font-family: var(--heading-5-bold);
+}
+.maskGroupIcon,
+.upscCivilServices {
+  align-self: stretch;
+  position: relative;
+}
+.maskGroupIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.upscCivilServices {
+  margin: 0;
+  font-size: var(--heading-4-bold-size);
+  font-weight: 700;
+  font-family: var(--heading-5-bold);
+  color: var(--color-black);
+  text-align: center;
+}
+.circlewavycheckIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.weeklyPrelimsAnd {
+  position: relative;
+}
+.highlightsList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 69px 0 var(--padding-23xl);
+  gap: var(--gap-3xs);
+}
+.circlewavycheckIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.guestLecturesBy {
+  position: relative;
+}
+.highlightsList1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 90px 0 var(--padding-23xl);
+  gap: var(--gap-3xs);
+}
+.circlewavycheckIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.comprehensiveCoverageOf {
+  position: relative;
+}
+.highlightsList2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 43px 0 var(--padding-23xl);
+  gap: var(--gap-3xs);
+}
+.span {
+  color: var(--color-gray-100);
+}
+.b {
+  position: relative;
+  font-size: var(--heading-5-bold-size);
+  font-family: var(--heading-5-bold);
+  color: #ec343f;
+}
+
+
+.courseHighlights,
+.courseHighlightsWrapper,
+.courses {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.courseHighlights {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #eef1fc;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-xl);
+  gap: 11px;
+}
+.courseHighlightsWrapper,
+.courses {
+  align-items: flex-start;
+}
+.courseHighlightsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--text-sizes-mobile-h9-size);
+  color: var(--color-gray-100);
+  font-family: var(--text-sizes-mobile-h9);
+}
+.courses {
+  width: 395px;
+  background-color: var(--grey-ff);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 45px 0;
+  gap: 38px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.container {
+    display: flex;
+    justify-content: center;
+  }
